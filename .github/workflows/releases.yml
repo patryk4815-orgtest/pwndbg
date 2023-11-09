@@ -44,7 +44,7 @@ jobs:
         draft: true
         token: ${{ secrets.TOKEN }}
   releases-arm64:
-    runs-on: ARM64
+    runs-on: self-hosted
     timeout-minutes: 60
     steps:
     - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9  # @v3
