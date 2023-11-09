@@ -6,6 +6,7 @@ on:
       - dev
     tags:
       - '*'
+  workflow_call:
 
 jobs:
   releases-x86_64:
