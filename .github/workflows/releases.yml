@@ -77,3 +77,4 @@ jobs:
           ./dist-tarball/*
         draft: true
         token: ${{ secrets.TOKEN }}
+
